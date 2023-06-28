@@ -1,0 +1,130 @@
+body {
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI';
+    font-size: 18px;
+    background-image: url('../imagens/dino.jpg');
+    display: flex;
+    flex-direction: column;    
+    height: 100vh;
+}
+
+@font-face {
+    font-family: 'StonedHeights';
+    src: url('../fontes/StonedHeights.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'CFJUNGLE';
+    src: url('../fontes/CFJUNGLE-Regular.ttf') format('truetype');
+}
+
+header {
+    width: 100%;
+    height: 110px;
+    min-height: 110px;
+    background-color: #081c15;
+    display: flex;    
+    justify-content: space-between;
+}
+
+#logo {
+    font-family: 'StonedHeights';
+    font-size: 55px;
+    text-decoration: none;
+    color: #ffde59;
+    padding-left: 30px;
+    align-self: center;
+}
+
+#contato {
+    align-self: center;
+    padding-right: 30px;
+    text-align: right;
+    color: #d8f3dc;
+}
+
+#container {
+    padding: 0px 100px;
+    text-align: center;
+    max-width: 1100px;
+    margin: 0px auto;      
+}
+
+#destaques {
+    display: flex;
+    justify-content: space-around;
+}
+
+.dino-box {
+    background-color: #1b4332;
+    border-radius: 10px;
+    max-width: 350px;
+    margin: 20px 20px;
+    padding: 0px;
+}
+
+.dino-box video {
+    max-width: 350px;
+    width: 100%;
+}
+
+.box-titulo {
+    font-family: 'CFJUNGLE';
+    color: #d8f3dc;
+    font-size: 45px;
+    text-shadow: 1px 1px 2px #081c15;
+    padding: 5px 15px;
+}
+
+.box-texto {
+    color: white;
+    padding: 5px 10px;
+    text-shadow: 1px 1px 2px #081c15;    
+    margin: 0px;
+}
+
+#reservas {
+    background-color: #000;
+    opacity: 0.8;
+    border-radius: 10px;
+    color: white; 
+    font-size: 25px;
+    padding: 25px 25px;
+}
+
+#reservas span {
+    font-family: 'StonedHeights';
+    font-size: 55px; 
+    color: #ffde59;      
+}
+
+#mapa {
+    height: 500px;
+    padding: 20px 0px;    
+}
+
+#frame-mapa {
+    border-radius: 10px;
+}
+
+footer {    
+    width: 100%;   
+    height: 100px; 
+    min-height: 100px;
+    background-color: #1b4332;
+    margin-top: auto;      
+    color: white; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+    text-align: center;
+    font-size: 16px;
+}
+
+footer span {
+    font-family: 'StonedHeights';
+    font-size: 25px; 
+    color: #ffde59;  
+}
